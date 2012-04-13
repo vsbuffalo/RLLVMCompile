@@ -28,3 +28,6 @@ type-specific comparison operators in LLVM, i.e. FCmp.
 ## Stuff I broke or disabled intentionally
 - .InsertReturn is commented out and not TRUE by default in compileFunction because it's broken.
 - fixIfAssign is commented out because it's broken.
+
+## Todo 
+ - clean out and unify geType methods.
